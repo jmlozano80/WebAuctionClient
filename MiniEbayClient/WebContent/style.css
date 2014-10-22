@@ -1,0 +1,530 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**end CSS-reset**/
+
+
+body{
+	background-color: white;
+	font-family:'Palatino Linotype';
+}
+
+#container{
+	width: 90%;
+	height:auto;
+	margin-right:auto;
+	margin-left:auto;
+	background-color: white;
+	}
+
+	/* Fonts*/
+h1{
+	font-family: 'Palatino Linotype';
+	color: darkgreen;
+	font-size: 200%;
+	display: block;
+	padding-top: 2%;
+	}
+
+h2{
+
+	font-family: 'Palatino Linotype';
+	font-size: 125%;
+}
+h2.contact{
+	color: blue;
+	margin-left:20%;
+	margin-top:-0.5%;
+}
+h2.sitemap1{
+	color: darkgreen;
+	text-decoration:underline;
+}
+h2.sitemap2{
+	color: darkgreen;
+	margin-left:40%;
+    margin-top:-18.5%;
+	font-size: 135%;
+	text-decoration:underline;
+	float:top;
+}
+h2.sitemap3{
+	color: darkgreen;
+	margin-left:60%;
+    margin-top:-14%;
+	font-size: 135%;
+	text-decoration:underline;
+	float:top;
+}
+h3{
+	font-size:110%;
+}
+h3.contact{
+	text-align:left;
+	font-size:110%;
+	margin-left:20%;
+	
+	}
+
+	
+h3.sitemap1{
+	text-align:left;
+	font-size:110%;
+	margin-left:21%;
+	padding-top:0%;
+	padding-bottom:1%;
+	
+	}	
+h3.sitemap2{
+	text-align:left;
+	font-size:110%;
+	margin-left:41%;
+	padding-top:0%;
+	padding-bottom:1%;
+	
+	}
+
+h3.sitemap3{
+	text-align:left;
+	font-size:110%;
+	margin-left:61%;
+	padding-top:0%;
+	padding-bottom:1%;
+	
+	}
+
+	
+h4{
+	font-size:110%;
+	color:  darkgreen;
+	text-decoration:underline
+}
+
+/* end fonts */
+	
+header{
+		width: 100%;
+		padding-top: 2%;
+	}
+	
+span {
+	color: #669966;
+	display: block;
+	font: 55% "Arial", "Helvetica", sans-serif;
+	padding-left: 9%;}	
+
+	
+	
+/* navigation bar */	
+	
+nav{
+	margin-top: 2%;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+	background-color:white;
+	font-size:120%;
+	border:2px solid green ;
+    border-radius:25px;
+	padding-top:0.5%;
+	padding-bottom:2.5%;
+	}
+
+
+ul {  
+    font-family: 'Palatino Linotype';
+    margin-left: 1%;
+    padding-left: 1%;
+    list-style: none;
+	
+}
+
+li{ 
+	font-family: 'Palatino Linotype';
+	font-size: 100%;
+	padding-left: -9%;
+		
+}	
+	
+	
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+	margin-right:-1%;
+    width: 19.5%;
+	
+	
+}	
+
+
+	
+ul li a {
+		text-decoration: none;
+		color: black;
+		font-size: 100%;
+		border-top: 1px solid white;
+		background: white;
+		margin-top: 1%;
+    	
+    	
+}
+/* end navigation bar */
+footer{
+	margin-bottom:0%;
+	margin-left:5%
+
+}
+
+
+/* visited link */
+a:visited {                            
+background: white;
+color: #669966;
+font-size: 100%;
+font-family: 'Palatino Linotype';
+}
+
+/* mouse over link */
+a:hover {                            
+background: white;
+color: #669966;
+font-size: 100%;
+font-family: 'Palatino Linotype';
+}
+
+/* log registration */
+#log_reg{
+	float:right;
+	margin-right:10%;
+	width:25%;
+  
+}
+
+/* dropDown menu */
+
+#dropDown{
+	margin-right:10%;
+	margin-right:15%;
+	margin-bottom:2%;
+	width:20%;
+	
+}
+
+/* Bottom line */
+#hrList{
+		margin-left:40%;
+		padding-right:10%;
+}
+
+
+
+/* specific for index.jsp */
+
+#hrIndex{
+    
+	 width:90%;
+	 border:1px solid #000;
+	 margin-top:-15%;
+}
+
+
+#index_center{ 
+	margin-left: 5%;
+	margin-right: 5%;
+	height:60%;
+	margin-bottom:10%;
+}
+	/*Style of form for registration */
+
+#regText{	
+	width: 35%;
+	text-align:justify;
+}
+/* forms and form's elements  */
+form{
+	margin-top:10%;
+	font-size: 100%;
+	margin-left: 45%;
+	margin-right: 0%;
+	text-align:right;
+	font-family: 'Palatino Linotype';
+}	
+	
+label{
+	font-size:100%;
+	color: green;
+	padding:10%;
+	text-align:left;
+
+}	
+
+input{
+	font-family: 'Palatino Linotype';
+	border:2px solid green ;
+	border-radius:25px;  
+	margin-right:15%;
+	margin-bottom:2%;
+	width:30%;
+	text-align:center;
+	margin-right: 15%;
+}	
+
+
+#formContainer{
+	display:inline_block;
+	width:90%;
+	text-align:left;
+	
+}
+
+/* end forms */
+article{
+	margin-top:-8%;
+	width:45%;
+	margin-left:7%;
+	float:left;
+}
+
+
+/* End registration and registration form */
+
+
+	
+#loginForm{
+	background:white;
+	padding-top:15%;
+	padding-right:-10%;
+	font-size: 105%;
+	margin-left: 45%;
+	margin-right: 0%;
+	text-align:right;
+	font-family: 'Palatino Linotype';
+}	
+
+#hrLogin{
+
+	margin-top:19%;
+	width:90%;
+	border:1px solid #000;
+}
+
+	
+/* End login */	
+	
+
+	
+#hello{
+	background:white;
+	text-align:right;
+	margin-right:15%;
+	margin-top:-3%;
+}
+
+/*  bottom line contact.jsp*/
+
+#hrContact{
+	margin-top:-15%;
+	width:90%;
+	border:1px solid #000;
+
+}
+
+/*bikes.jsp search*/
+
+#searchContainer{
+	margin-top:10%;
+
+}
+
+#hrBikes{
+	margin-top:3%;
+	width:90%;
+	border:1px solid #000;
+}
+
+#hrBid{
+	margin-top:4%;
+	width:90%;
+	border:1px solid #000;
+}
+
+/*Form for search*/
+#formBid{
+	margin-top: 2%;
+	font-size: 100%;
+	margin-left: 10%;
+	marlgin-right: 18%;
+	font-family: 'Palatino Linotype';
+	width: 52%;
+}
+
+#searchForms{
+	width:50%;
+	margin-left:3%;
+	padding-top:10%;
+	margin-top:5%;
+}
+
+#searchByBrand{
+	width:100%;
+	margin-left:0%;
+	display:inline;
+	text-align:left;
+	padding-left:-1%;
+	background:1red;
+}
+
+#searchByCategory{
+
+	display:inline;
+	margin-left:0%;
+	margin-top:12%;
+	width:60%;
+}
+#labelSearch{
+
+	font-size: 100%;
+	color: #008000;
+	padding: 10%;
+	text-align: left;
+}
+
+#guess{
+	display: block;
+	margin-left: 33%;
+	background-color: white;
+	width: 25%;
+}
+
+#guess1{
+	display: block;
+	margin-left: 58%;
+	background-color: white;
+	width: 25%;
+	margin-top: -22%;
+}
+
+#searchForm
+{
+	margin-top: 2%;
+	font-size: 100%;
+	margin-left: 13%;
+	margin-right: -21%;
+	text-align: right;
+	font-family: 'Palatino Linotype';
+	width: 74%;
+}
+
+#displayAll{
+	margin-top:2%;
+	text-align:left;
+	margin-left:1%;
+}
+
+select{
+	text-align:center;
+	border: 1px solid grey;
+	overflow: hidden;
+
+}
+
+#buttomSearch{
+	width:18%;
+	margin-right:1%;
+	padding-right:1%;
+}
+/* end Form for search*/
+
+/* Display search */
+
+#displaySearch{
+	width: 60%;
+margin-left: 20%;
+padding-bottom: 1%;
+margin-top: -3%;
+}
+
+table, td {
+    width:60%;
+	border-spacing:10%;
+	border-bottom: 1px solid grey;
+	text-align:center;
+	margin-left:17%;
+	vertical-align:middle;
+    padding:15px;
+}
+
+table, th {
+    padding-left:1%;
+	padding-top:1%;
+	padding-right:1%;
+	padding-bottom:2%;
+}
+
+
+#returnToBikes{
+	margin-top:2%;
+	text-align:left;
+	margin-left:45%;
+}
+
+
+a#backToTop {
+    width:40px;
+    height:40px;
+    opacity:0.5;
+ 
+    bottom:5px;
+    left:50%;
+    display:none;
+    text-indent:-10000px;
+    outline:none !important;
+    background-image: url('top.png');
+    background-repeat: no-repeat;
+}
